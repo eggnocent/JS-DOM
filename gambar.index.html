@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>DUA RIBU DUA RIBUU</h2>
+<img id="image" src="smiley.gif" width="160" height="120">
+
+<br>
+<button id="zoomOut" onClick="fZoomOut()">zoomOut</button>
+<button id="zoomIn" onClick="fZoomIn()">zoomIn</button>
+
+<script>
+
+function fZoomIn() {
+    document.getElementById("image").width = "400";
+    document.getElementById("image").height = "400";
+    alert("fZoomIn");
+}
+function fZoomOut() {
+	document.getElementById("image").width = "100";
+    document.getElementById("image").height = "100";
+    alert("fZoomOut");
+}
+
+document.getElementById("image").src = "https://i.scdn.co/image/ab67616d0000b27328bb0bb48e97d0a1f116f9a2";
+document.getElementById("image").weight = "200";
+document.getElementById("image").height = "200";
+</script>
+
+<p>Seorang anak kecil yang berdagang ayam goyeng</p>
+
+</body>
+</html>
